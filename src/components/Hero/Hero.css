@@ -1,0 +1,115 @@
+.hero {
+    
+    /* background: url(../../Assets/Rectangle.png); */
+    background-color: #f0b60a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    
+    
+    text-align: center;
+    
+    /* top: 87px; */
+    padding: 80px;
+    height: 50%;
+    
+    /* background: linear-gradient(358.15deg, #f0b60a 80%, rgba(206, 183, 100, 0) 98.65%);
+    mix-blend-mode: multiply;
+    opacity: 1.4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+.hero h2 {
+    /* text-align: center; */
+    font-size: 50px;
+    line-height: 1.5em;
+    color: #00098A;
+    padding-bottom: 2px;
+}
+
+.hero p {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #00098A;
+    font-weight: 100;
+
+
+}
+
+.hero button {
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: inherit;
+    border-style: double;
+    cursor: pointer;
+    border-spacing: 30em;
+    border-color: #F8F1F1;;
+    background-color: #f0b60a;
+    color: #F8F1F1;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 4.5%;
+}
+
+@media (max-width:760px) {
+    .hero {
+    
+        /* background: url(../../Assets/Rectangle.png);
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background-color: #f0b60a;
+        
+        width: 100%;
+
+        margin-top: -1.5em;
+        
+        
+        text-align: center;
+        
+        /* top: 87px; */
+        padding: 75px;
+        
+        
+        /* background: linear-gradient(358.15deg, #f0b60a 80%, rgba(206, 183, 100, 0) 98.65%);
+        mix-blend-mode: multiply;
+        opacity: 1.4;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    }
+    
+    .hero h2 {
+        /* text-align: center; */
+        font-size: 40px;
+        line-height: 1em;
+        color: #00098A;
+        padding-bottom: 3px;
+    }
+    
+    .hero p {
+        text-align: center;
+        padding-bottom: 50px;
+        color: #00098A;
+        font-weight: 100;
+        padding-top: 1em;
+        font-size: 18px;
+    
+    
+    }
+    
+    .hero button {
+        padding: 10px 20px;
+        border-radius: 6px;
+        color: inherit;
+        border-style: double;
+        cursor: pointer;
+        border-spacing: 30em;
+        border-color: #F8F1F1;;
+        background-color: #f0b60a;
+        color: #F8F1F1;
+        font-weight: bolder;
+        text-align: center;
+        margin-right: 4.5%;
+    }
+
+    
+}

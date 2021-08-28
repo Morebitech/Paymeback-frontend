@@ -1,0 +1,179 @@
+.Under {
+    
+    /* margin-top: 20px;
+    margin-bottom: 30em;
+    text-align: center;
+    /* position: absolute; */
+    justify-content: center; 
+    
+}
+
+.Under h4 {
+   
+    
+
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 30px;
+
+    color: #00098A;
+
+
+}
+
+.wrappme {
+
+    max-width: 85%;
+    margin: auto;
+
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.first {
+    text-align: center;
+    font-size: larger;
+    line-height: 1.3em;
+    
+}
+
+/* img {
+   width: 200px;
+   padding: 0 0 5px 5px !important;
+   margin-right: 10em !important;
+   
+} */
+
+#high {
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+#pp {
+    
+    padding-bottom: 3em;
+}
+
+.second {
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 20px;
+}
+
+.third {
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 20px;
+}
+
+
+/* Images */
+
+.images {
+    width: 85%;
+    margin: auto;
+
+    margin-bottom: 10em !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 16em;
+    justify-content: space-between !important;
+}
+
+
+@media (max-width:950px ) {
+
+    .Under {
+    
+        /* margin-top: 20px; */
+        margin-bottom: -4em;
+        text-align: center;
+        /* position: absolute; */
+        justify-content: center; 
+        
+    }
+    
+    .Under h4 {
+       
+        
+    
+        font-family: Gilroy-Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 1.2em;
+        text-align: center;
+        padding-bottom: 35px;
+        padding-top: 25px;
+    
+        color: #00098A;
+    
+    
+    }
+    
+    .wrappme {
+    
+        max-width: 95%;
+        margin: auto;
+    
+        /* margin-top: 20px; */
+        display: block;
+        /* justify-content: space-between !important; */
+    }
+    
+    .first {
+        text-align: center;
+        line-height: 1.3em;
+        font-size: 18px;
+        
+    }
+    
+    /* img {
+       width: 200px;
+       padding: 0 0 5px 5px !important;
+       margin-right: 10em !important;
+       
+    } */
+    
+    #high {
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 20px !important;
+    }
+    
+    #pp {
+        
+        padding-bottom: 3em;
+        font-size: 18px;
+    }
+    
+    .second {
+        text-align: center;
+        line-height: 1.3em;
+        font-size: 20px;
+    }
+    
+    .third {
+        text-align: center;
+        line-height: 1.3em;
+        font-size: 20px;
+    }
+    
+    
+    /* Images */
+    
+    .images {
+       
+        display: none;
+        /* display: flex; */
+       
+    }
+    
+    
+}

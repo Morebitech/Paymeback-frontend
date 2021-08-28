@@ -1,0 +1,361 @@
+.container {
+    
+}
+
+#btn {
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    padding-left: 12em;
+    cursor: pointer;
+}
+
+#logo {
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.icon {
+    font-size: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+
+/* image section */
+
+.image {
+
+    margin-top: -7.4em;
+    
+    background-color: #333cc1;
+    position: relative;
+    
+    
+   
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.content {
+    width: 90%;
+    padding-top: 75px;
+   
+    overflow: hidden;
+   
+}
+
+.content img {
+    width: 100%;
+    object-fit: contain;
+    
+   
+}
+
+#mybtn {
+    
+    margin-left: 30em;
+    margin-bottom: 2em;
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 3px solid #fff;
+    line-height: 1.3em;
+    border-radius: 5px;
+    color: #ff8c5f;
+    background-color: #333cc1;
+}
+
+/* Text */
+
+.text {
+   
+    padding-left: 15em;
+    padding-top: 3.5em;
+    text-align: left;
+}
+
+.text h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 0.7em;
+}
+
+#fom {
+    display: block;
+}
+
+label {
+    padding-bottom: 20px;
+} 
+
+#field {
+    padding-bottom: 8px;
+}
+
+form input {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 0.7em 5em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.8px solid #333cc1;
+    outline: none;
+    font-size: 14px;
+    color: #333cc1;
+    text-align: left;
+}
+
+
+#assist {
+    display: flex;
+    justify-content: space-evenly;
+    width: 7;
+}
+
+#us {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+#link a {
+    padding-right: 8em;
+}
+
+#highl {
+    padding: 10px 9.6em;
+    font-size: 15px;
+    color: rgb(236, 233, 226);
+    background-color: #ff8c5f;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.socials {
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 10em;
+}
+
+.socials img {
+    padding-right: 10px;
+    width: 42px;
+    padding-bottom: 3px;
+}
+
+.mobile-btnn {
+  display: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:950px) {
+    .container {
+    
+    }
+    
+    #btn {
+        display: flex;
+        outline: none;
+        border: none;
+        background-color: #fff;
+        padding-left: 4.8em;
+        cursor: pointer;
+    }
+    
+    #logo {
+        /* display: none !important; */
+        padding-top: 1em;
+        padding-left: 2em;
+    }
+    
+    .icon {
+        font-size: 10px;
+    }
+    
+    .wrapper {
+        display: block;
+        width: 95%;
+        margin: auto;
+        justify-content: left !important;
+    }
+
+   
+    
+    
+    /* image section */
+    
+    .image {
+    
+        /* margin-top: -7.4em;
+        
+        background-color: #333cc1;
+        position: relative; */
+        display: none !important;
+        
+        
+       
+    }
+    
+    p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 40px;
+    }
+    
+    
+    
+    #mybtn {
+        
+        margin-left: 2em;
+        margin-bottom: 2em;
+        position: relative;
+        padding: 8px 10px !important;
+        cursor: pointer;
+        border: 3px solid #fff;
+        line-height: 1.3em;
+        border-radius: 5px;
+        color: #ff8c5f;
+        background-color: #333cc1;
+    }
+    
+    /* Text */
+    
+    .text {
+       
+        width: 60%;
+        margin: auto;
+        padding-left: 1px;
+        padding-top: 3.5em;
+        text-align: left;
+    }
+    
+    .text h3 {
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 0.7em;
+    }
+    
+    #fom {
+        display: block;
+    }
+    
+    label {
+        padding-bottom: 20px;
+    } 
+    
+    #field {
+        padding-bottom: 8px;
+    }
+    
+    form input {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        padding: 0.7em 5em;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.8px solid #333cc1;
+        outline: none;
+        font-size: 14px;
+        color: #333cc1;
+        text-align: left;
+    }
+    
+    
+    #assist {
+        display: block;
+        text-align: center;
+    }
+    
+    #us {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3em;
+        width: 100%;
+    }
+    
+    #link a {
+        padding-right: 7em;
+        margin-bottom: 2em !important;
+    }
+
+    #remember {
+    /* color:'black'; 
+    fontSize:'12px';
+                                   
+            paddingLeft:'12px', 
+            marginRight: '14em',
+             paddingBottom:'-4em', */
+    font-size: 16px !important;
+    margin-right: 2px !important;
+    padding-left: 1pxh !important;
+            
+    }
+    
+    #highl {
+        margin-top: 14px;
+        padding: 9px 6em;
+        font-size: 14px;
+        color: rgb(236, 233, 226);
+        background-color: #ff8c5f;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+
+    .mobile-btnn {
+        display: block; 
+        margin-top: 2em;
+        border-radius: 15px;
+        padding: 8px 6em !important;
+    }
+
+
+    /* Social tags */
+    
+    .socials {
+        text-align: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-right: 10em;
+    }
+
+    #social-tag {
+        /* color:'black', fontSize:'14px',paddingTop:'20px', paddingRight:'10em' */
+        font-size: 15px !important;
+        padding-top: 25px !important;
+        padding-right: 1px !important;
+    }
+
+    .socials{
+        display: flex;
+    }
+    
+    .socials img {
+        cursor: pointer;
+        padding-right: 10px;
+        width: 38px !important;
+        padding-bottom: 3px;
+    } 
+}

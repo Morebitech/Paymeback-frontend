@@ -1,23 +1,85 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './components/Footer/Footer';
+// import Above from './components/AboveFooter/Above';
+import Hero from './components/Hero/Hero';
+import Content from './components/Last/Last';
+import Navbar from './components/Navbar/Navbar';
+import Under from './components/UnderHero/Under';
+import Winner from './components/Winner/Winner';
+import Youtube from './components/Youtube/Youtube';
+
+import Signin from './Signin/Signin';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+     <Router>
+
+       
+         <Navbar />
+         
+          <Switch>
+
+         
+
+              <Route path='/' exact render={props =>
+              <div>
+                  
+                  <Hero />
+                  <Under />
+
+                  <Winner />
+
+                  <Youtube />
+
+
+                  <Content />
+
+                  <Footer />
+              </div>
+          } />
+
+
+          
+
+
+            <Route path='/about'  component={About}/>
+
+            <Route path='/log in' component={Signin}/>
+
+            
+
+          </Switch>
+
+              
+          {/* 
+            
+            <Hero />
+
+            <Under />
+
+            <Winner />
+
+            <Youtube />
+
+          
+            <Content />
+
+            <Footer /> */}
+     </Router>
+ 
+     
+
+
+     
+      
     </div>
   );
 }
