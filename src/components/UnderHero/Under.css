@@ -28,18 +28,27 @@
 
 .wrappme {
 
-    max-width: 85%;
+    max-width: 89%;
     margin: auto;
-
-    /* margin-top: 20px; */
+    /* background-color: black !important; */
+    
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between !important;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .first {
     text-align: center;
-    font-size: larger;
-    line-height: 1.3em;
+    /* background-color: black; */
+    color: black !important;
+    border-radius: 10px;
+    padding: 3em;
+    
+    
+   
     
 }
 
@@ -51,25 +60,32 @@
 } */
 
 #high {
-    padding-bottom: 15px;
-    font-weight: 600;
+    /* padding-top: 1em; */
+    padding-bottom: 1.5em;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.3em;
 }
 
 #pp {
     
-    padding-bottom: 3em;
+    padding-bottom: 2em;
+    font-size: 20px;
+    line-height: 1.4em;
 }
 
 .second {
     text-align: center;
-    line-height: 1.3em;
-    font-size: 20px;
+    color: black !important;
+    border-radius: 10px;
+    padding: 3em;
 }
 
 .third {
     text-align: center;
-    line-height: 1.3em;
-    font-size: 20px;
+    color: black !important;
+    border-radius: 10px;
+    padding: 3em;
 }
 
 
@@ -124,11 +140,17 @@
     
         /* margin-top: 20px; */
         display: block;
-        /* justify-content: space-between !important; */
+       
+        padding: 2em;
+        justify-content: center !important;
     }
     
     .first {
         text-align: center;
+        background-color: black;
+        border-radius: 10px;
+        padding-top: 1em;
+        margin-bottom: 1em;
         line-height: 1.3em;
         font-size: 18px;
         
@@ -155,12 +177,20 @@
     
     .second {
         text-align: center;
+        padding-top: 1em;
+        margin-bottom: 1em;
+        background-color: black;
+        border-radius: 10px;
         line-height: 1.3em;
         font-size: 20px;
     }
     
     .third {
         text-align: center;
+        padding-top: 1em;
+        margin-bottom: 1em;
+        background-color: black;
+        border-radius: 10px;
         line-height: 1.3em;
         font-size: 20px;
     }

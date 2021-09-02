@@ -17,6 +17,7 @@
 }
 
 #ell {
+    /* display: none; */
     margin-left: 8em !important;
     margin-top: 2.5em !important;
     width: 20em;
@@ -24,6 +25,7 @@
 }
 
 #rec {
+    /* display: none; */
     position: absolute;
     width: 25em;
 }
@@ -40,6 +42,7 @@
 .list li {
     padding-bottom: 30px;
     color: #333CC1;
+    /* color: red; */
     padding-right: 1em;
     font-weight: 300;
     

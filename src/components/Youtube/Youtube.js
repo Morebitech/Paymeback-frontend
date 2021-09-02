@@ -10,7 +10,7 @@ const Youtube = () => {
 
            <div id="wrat">
 
-                <div className="text">
+                <div className="texttt">
                     <h5 id='spec'>
                         See how PayMeBack is <br /> impacting lives
                     </h5>
