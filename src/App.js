@@ -20,6 +20,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Create from './Createaccount/Create';
 import Locatiion from './ContactSection/Locatiion';
+import Faq from './FAQ/Faq';
 
 
 function App() {
@@ -82,6 +83,19 @@ function App() {
               
 
               
+            } />
+
+
+
+            <Route path='/faq' exact render={props =>
+
+            <div>
+                <Faq />
+                <Footer />
+            </div>
+
+
+
             } />
 
             {/* pfprprprprp */}

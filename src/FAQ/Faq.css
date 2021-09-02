@@ -1,0 +1,92 @@
+.faq-wrapper {
+    
+    background-color: #f3f3f3;
+    
+}
+
+.faq-head {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    width: 99%;
+    overflow: hidden;
+}
+
+.firstImg img {
+    width: 85px;
+   
+}
+
+.lastImg img {
+    width: 100px;
+    
+   
+}
+
+.faqSearch {
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+.faqSearch h2 {
+    color: #00098A;
+    font-size: 3em;
+}
+
+.faqSearch input {
+    width: 88%;
+    margin-top: 2.2em;
+    margin-bottom: 2.3em;
+    padding: 1em 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#fav-btn {
+    padding: 8px 3.6em;
+    border: 1px solid #ff8c5f;
+    color: #ff8c5f;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* faq Lastsection */
+
+.faq-last {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+#faquiz {
+    width: 80%;
+    margin-bottom: 3em;
+
+    /* position: relative; */
+    
+}
+
+#faquiz select option {
+    width: 80%;
+}
+
+#myopinion {
+    color: #00098A;
+}
+
+
+@media (max-width: 950px) {
+    .faq-wrapper {
+    
+        background-color: #f3f3f3;
+        margin-top: 2em;
+        
+    }
+      
+}
