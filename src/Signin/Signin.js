@@ -1,7 +1,9 @@
 import React from 'react';
 import './Signin.css'
-import logo from '../Assets/PayMeBack.png'
+import log from '../Assets/PayMeBack.png'
 import ArrowBackIosSharpIcon from '@material-ui/icons/ArrowBackIosSharp';
+import { FcGoogle } from 'react-icons/fc';
+
 
 import Google from '../Assets/super-g.png';
 // import fb from '../../Assets/facebook.png';
@@ -14,14 +16,14 @@ const Signin = () => {
     return (
 
         <div className='container'>
-                 <img src={logo} id='logo' alt="" /> <br/> <br/>
+                 {/* <img src={log} id='logo' alt="" /> <br/> <br/> */}
 
             <button id='btn'>
                 <div className="icon">
-                    <ArrowBackIosSharpIcon style={{fontSize:'2em',  fontWeight:800, paddingRight:'6px', color:'black'}}  />
+                    <ArrowBackIosSharpIcon style={{fontSize:'2em',  fontWeight:800, paddingRight:'6px', color:'black',marginTop:'3em'}}  />
                 </div>
 
-                <div style={{paddingTop:'1px'}}>Back</div>
+                <div style={{marginTop:'4.2em', color: 'black'}}>Back</div>
             </button>
 
             <div className="cont">
@@ -73,7 +75,9 @@ const Signin = () => {
 
                         <div className="socials">
 
-                            <img src={Google} alt="" />
+                            {/* <img src={Google} alt="" /> */}
+
+                            <FcGoogle style={{paddingLeft:'10px', cursor:'pointer', fontSize:'35px'}}/>
 
                             <FacebookIcon style={{paddingLeft:'10px', cursor:'pointer', fontSize:'35px'}} />
 

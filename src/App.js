@@ -1,5 +1,6 @@
 
 import './App.css';
+import './apt.css';
 import Footer from './components/Footer/Footer';
 // import Above from './components/AboveFooter/Above';
 import Hero from './components/Hero/Hero';
@@ -11,10 +12,15 @@ import Youtube from './components/Youtube/Youtube';
 
 import Signin from './Signin/Signin';
 
+import Contact from './ContactSection/Contact';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import About from './pages/About';
-import Contact from './pages/Contact';
+
+
+import Create from './Createaccount/Create';
+import Locatiion from './ContactSection/Locatiion';
+
 
 function App() {
   return (
@@ -44,19 +50,46 @@ function App() {
 
                   <Footer />
               </div>
-          } />
+            } />
 
 
           
 
 
-            <Route path='/about'  component={About}/>
+            {/* <Route path='/about'  component={About}/> */}
 
             <Route path='/log in' component={Signin}/>
+            <Route path='/sign Up' component={Create}/>
 
-            pfprprprprp
+
+
+
+            {/* <Route path='/contact' component={Contact} /> */}
+            <Route path='/contact' exact render={props =>
+
+              <div className = "cont-wrappmee">
+                    <div className = "contact-wrapper" >
+                        <div className="colLeft">
+                          <Contact />
+                        </div>
+                      <div className="colRight">
+                        <Locatiion />
+                      </div>
+                  
+                    </div>
+                    <Footer />
+              </div>
+              
+
+              
+            } />
+
+            {/* pfprprprprp */}
 
           </Switch>
+
+
+          
 
               
           {/* 

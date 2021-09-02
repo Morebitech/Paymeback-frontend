@@ -22,14 +22,14 @@ img {
 }
 
 
-.text {
+.texttt {
    
     padding-left: 5em;
     padding-top: 14em;
    
 }
 
-.text p {
+.texttt p {
     line-height: 1.8em;
     color: #fff;
     font-size: 18px;
@@ -89,7 +89,7 @@ img {
     }
     
     
-    .text {
+    .texttt {
        
         padding-left: 1px;
         padding-top: 1px;
@@ -98,7 +98,7 @@ img {
        
     }
     
-    .text p {
+    .texttt p {
         line-height: 1.8em;
         color: #fff;
         font-size: 18px;

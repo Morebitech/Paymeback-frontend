@@ -9,7 +9,7 @@ const Winner = () => {
         <div className='win'>
 
             <div className="wrappy">
-                <div className="image">
+                <div className="imagee">
                     <img src={Rec} id='rec' alt="" />
                     <img src={Ellip} id='ell' alt="" />
                 </div>

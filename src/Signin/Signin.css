@@ -1,5 +1,5 @@
 .container {
-    
+    /* height: 90vh; */
 }
 
 #btn {
@@ -21,7 +21,8 @@
 }
 
 .wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
     justify-content: space-between !important;
 }
 
@@ -30,23 +31,27 @@
 
 .image {
 
-    margin-top: -7.4em;
-    
+    margin-top: -1em;
+    height: 955px;
+    width: 790px;
     background-color: #333cc1;
     position: relative;
+    padding-bottom: 10em;
     
     
    
 }
 
-p {
+.content p {
     text-align: center;
     color: #ffffff;
     font-size: 40px;
+    margin-left: 2em;
 }
 
 .content {
-    width: 90%;
+    width: 80%;
+    /* margin: auto; */
     padding-top: 75px;
    
     overflow: hidden;
@@ -54,18 +59,20 @@ p {
 }
 
 .content img {
-    width: 100%;
+    width: 97.3% !important;
     object-fit: contain;
+    overflow: hidden;
+    padding-bottom: 1em;
     
    
 }
 
 #mybtn {
     
-    margin-left: 30em;
-    margin-bottom: 2em;
+    margin-left: 40em;
+    margin-bottom: 4em;
     position: relative;
-    padding: 10px 15px;
+    padding: 10px 20px;
     cursor: pointer;
     border: 3px solid #fff;
     line-height: 1.3em;
@@ -78,8 +85,9 @@ p {
 
 .text {
    
-    padding-left: 15em;
-    padding-top: 3.5em;
+    
+    padding-left: 10em;
+    padding-top: 2px;
     text-align: left;
 }
 
@@ -112,14 +120,14 @@ form input {
     outline: none;
     font-size: 14px;
     color: #333cc1;
-    text-align: left;
+    text-align: left !important;
 }
 
 
 #assist {
     display: flex;
-    justify-content: space-evenly;
-    width: 7;
+    justify-content: space-between;
+    /* width: 7em; */
 }
 
 #us {
@@ -143,7 +151,8 @@ form input {
 }
 
 .socials {
-    text-align: center;
+    text-align: left;
+    display: flex;
     justify-content: space-between;
     padding-top: 20px;
     padding-right: 10em;
@@ -335,10 +344,11 @@ form input {
     /* Social tags */
     
     .socials {
-        text-align: center;
+        display: flex !important;
+        text-align: left;
         justify-content: space-between;
         padding-top: 20px;
-        padding-right: 10em;
+        padding-right: 1px;
     }
 
     #social-tag {
@@ -348,14 +358,14 @@ form input {
         padding-right: 1px !important;
     }
 
-    .socials{
+    /* .socials{
         display: flex;
-    }
+    } */
     
-    .socials img {
+    /* .socials img {
         cursor: pointer;
         padding-right: 10px;
         width: 38px !important;
         padding-bottom: 3px;
-    } 
+    }  */
 }

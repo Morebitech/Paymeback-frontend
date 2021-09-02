@@ -16,8 +16,7 @@ import Winner from '../Winner/Winner';
 import Youtube from '../Youtube/Youtube';
 import Content from '../Last/Last';
 import Footer from '../Footer/Footer';
-import About from '../../pages/About';
-import Contact from '../../pages/Contact';
+
 
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -107,7 +106,7 @@ const Navbar = () => {
 
 
                
-                <div className="last">
+                {/* <div className="last">
                         <ul>
                             <li>Log In</li>
                         </ul>
@@ -115,7 +114,7 @@ const Navbar = () => {
                         <button id='btn'>Sign Up</button>
 
                         
-                </div>
+                </div> */}
             </div>
 
         </div>
